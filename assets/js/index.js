@@ -4,8 +4,8 @@
 
 const array1 = [4, -2, 5, 19, -130, 0, 10];
 
-let min = 0;
-let max = 0;
+let min = array1[0];
+let max = array1[0];
 
 for (let i = 0; i < array1.length; i++) {
   min = min < array1[i] ? min : array1[i];
